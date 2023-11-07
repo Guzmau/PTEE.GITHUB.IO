@@ -1,0 +1,78 @@
+@font-face {
+	font-family: 'AmaticSC-Bold';
+	src: url('fuente/AmaticSC-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: 'AmaticSC-Bold';
+}
+
+.contenedor{
+	display: flex;
+}
+
+.contenedor1 {
+	border: 3px solid #126F9E;
+	border-radius: 3px;
+	width: 1030px;
+	height: 600px;
+	margin-top: 5px;
+	margin-left: 5px;
+	display: flex; /* Agrega esta línea para usar flexbox */
+	justify-content: center; /* Centrar horizontalmente */
+	align-items: center; /* Centrar verticalmente */
+}
+
+
+.imgcont{
+	height: 580px; /* Igual a la altura del contenedor1 */
+	width: 1015px; /* Igual al ancho del contenedor1 */
+	max-width: 95%; /* Para asegurarte de que no se desborde del contenedor */
+}
+
+.contenedor2{
+	border-radius: 3PX;
+	border: 3px solid #126F9E;
+	height: 600px;
+	width: 305px;
+	margin-left: 5px;
+	margin-top: 5px;	
+}
+
+
+.button1 {
+	font-size: 18px;	
+	margin-left: 80px;
+	margin-top: 60px;
+	height: 40px;
+	width: 150px;
+	border-radius: 3px;
+	border: 1px solid #070A0C;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	background-color: transparent; /* Valor inicial */
+	cursor: pointer;
+}
+
+.button1:hover {
+	background-color: black; /* Green */
+	color: white;
+}
+
+.contenedor3{	
+	background: #F2F2F2;
+	border: 3px solid #126F9E;
+	border-radius: 3px;
+	height: 420px;
+	width: 280px;
+	margin: 65px 9px;
+	display: flex;
+	justify-content: center; /* Centrar horizontalmente */
+	align-items: center; /* Centrar verticalmente si es necesario */
+}
+
+i {
+	margin-right: 5px;
+}
